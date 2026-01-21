@@ -1,0 +1,47 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:12354",
+      "sslPort": 44333
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5184",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SUPABASE_URL": "https://db.hvkrcvsbmyineakrsklt.supabase.co",
+        "SUPABASE_KEY": "sb_secret_KvoIXWG1IJSHfA_G3EKaMA_ofBJ2suF"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7031;http://localhost:5184",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SUPABASE_URL": "https://db.hvkrcvsbmyineakrsklt.supabase.co",
+        "SUPABASE_KEY": "sb_secret_KvoIXWG1IJSHfA_G3EKaMA_ofBJ2suF"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SUPABASE_URL": "https://db.hvkrcvsbmyineakrsklt.supabase.co",
+        "SUPABASE_KEY": "sb_secret_KvoIXWG1IJSHfA_G3EKaMA_ofBJ2suF"
+      }
+    }
+  }
+}
